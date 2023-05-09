@@ -1,0 +1,5 @@
+.mybg {
+    width: 800px;
+    height: 800px;
+background: url("../styles/newimages/images.jpeg") no-repeat  fixed  center;
+}
