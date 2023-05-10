@@ -1,0 +1,18 @@
+div{
+    height:150px;
+    color: #fff;
+
+}
+.box1{
+    color:black;
+    background-color: aqua;
+    border: 6px solid red;
+    margin-bottom: 20px;
+    padding:50px;
+}
+.box2{
+    color:black;
+    border: 6px solid red;
+    background-color: chartreuse;
+    padding:20px;
+}
