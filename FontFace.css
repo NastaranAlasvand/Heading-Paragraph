@@ -1,0 +1,29 @@
+@font-face{
+    font-family:"vaziri light"; 
+    src:local(vaziri light) local(vaziri-light) url("./styles/Fonts/ttf/Vazir-Light.ttf"); 
+    format("truetype");
+    src:url(./styles/Fonts/woff2/Vazir-Light.woff2); format:("woff2");
+    font-weight: 200;
+}
+         @font-face{
+            font-family:"vaziri bold"; 
+            src:url("./styles/Fonts/ttf/Vazir-Bold.ttf"); format:("truetype");
+            src:url("./styles/Fonts/woff2/Vazir-Bold.woff2"); format:("woff2");
+            font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: vaziri light;
+}
+div{
+    background-color:blueviolet;
+    counter-reset: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
