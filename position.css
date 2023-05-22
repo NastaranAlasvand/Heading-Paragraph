@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    height:1800px;
+}
+.box1,
+.box2,
+.box3 {
+height: 200px;
+margin-bottom: 24px;
+}
+.box1{
+    background-color: crimson;
+    position: relative;
+    right: 0;
+
+}
+.box2{
+    background-color: cyan;
+    position: sticky;
+    top:0;
+}
+.box3{
+    background-color: darkgreen;
+}
+
+.box1_child{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position:absolute;
+    bottom: 0;
+}
