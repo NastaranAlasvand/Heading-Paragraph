@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+    margin:0
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 500px;
+    align-items: center;
+    
+}
+.flex-item{
+    height: 200px;
+    width: 320px;
+    background-color: darksalmon;
+}
+.flex-item__blue{
+background-color:blue;
+height: 100px;
+}
+.flex-item__red{
+background-color:red;
+}
+.flex-item__orange{
+    background-color: coral;
+    height: 150px;
+
+}
