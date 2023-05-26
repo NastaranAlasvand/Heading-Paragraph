@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face{
+    font-family: "shabnam";
+     src: url("./Proje/Shabnam-FD.woff2");
+     format:("woff2")
+}
+body{
+    font-family: "shabnam";
+    background-color: #fafafa;
+}
+.container{
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item1{
+    width: 18px;
+    background: url(./image.svg) no-repeat;
+    background-position-x:right;
+    
+
+}
+.flex-item2{
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+}
+    
+.flex-item3{
+    width: 100px;
+    height: 50px;
+    color:dodgerblue;
+
+}
+
+
+.row{
+max-width: 1216px;
+margin-right: auto;
+margin-left: auto;
+background-color: #fff;
+display: flex;
+justify-content: center;
+font-size: 15px;
+color: #37474F;
+gap:24px;
+
+}
+.flex-image1,
+.flex-image2,
+.flex-image3,
+.flex-image4{
+    width: 304px;
+    height: 500px;
+    text-align:right;
+    box-shadow: 0px 3px 8px 3px #EEEEEE;
+  
+}
+.flex-image1{
+    width: 304px;
+    height: 500px;
+    background-position: center;  
+    background-size: 100%;
+    background-repeat: no-repeat;
+ }
+ .flex-image1> p{
+    border: 1px solid #fff;
+    margin: 24px 16px ;
+ }
+.flex-image2{
+    width: 304px;
+    height: 500px;
+background-position: center;  
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.flex-image3{
+    width: 304px;
+    height: 500px;
+background-position: center;  
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.flex-image4{
+    width: 304px;
+    height: 500px;
+background-position: center;  
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.flex-image1 img,
+.flex-image2 img,
+.flex-image3 img,
+.flex-image4 img {
+    width: 100%;
+    height:auto;
+    text-align:right;
+}
+.flex-image1 p,
+.flex-image2 p,
+.flex-image3 p,
+.flex-image4 p{
+    margin-top: 10px;
+}
+.flex-image1{
+    width: 304px;
+    height: 500px;
+    background: url(./Proje/image1/img1.jpg)no-repeat;
+    background-position-x:center;
+    background-size: 100%;
+}
+
+
+.flex-image2 {
+   width: 304px;
+   height: 500px;
+   background: url(./Proje/image2/img2.jpg)no-repeat;
+   background-position-x:center;
+   background-size: 100%;
+}
+.flex-image3{
+    width: 304px;
+    height: 500px;
+    background: url(./Proje/image3/img3.jpg)no-repeat;
+    background-position-x:center;
+    background-size: 100%;
+}
+.flex-image4{
+    width: 304px;
+    height: 500px;
+    background: url(./Proje/image4/img4.jpg)no-repeat;
+    background-position-x:center;
+    background-size: 70%;
+}
+.section-footer1{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.flex-foot1{
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #BBDEFB;
+    color: #1565C0;
+    border-radius: 1px solid  #BBDEFB;
+    margin-top: 24px;
+    margin-right: 16px;
+}  
+.flex-foot2{
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    text-decoration: line-through;
+    justify-content: center;
+    margin-top: 24px;
+    margin-right: 3px;
+}  
+.flex-foot3{
+    font-weight: bold;
+}
+.section-footer2{
+display: flex;
+justify-content: space-between;
+
+}
+.flex-foot3{
+    margin-top: 18px;
+    margin-right: 16px;
+}
+.flex-foot4{
+    width: 18px;
+    background: url(./imagestar.svg) no-repeat;
+    background-position-x:right;    
+}
+.flex-foot5{
+margin-top: 24px;
+margin-left: 36px;
+}
