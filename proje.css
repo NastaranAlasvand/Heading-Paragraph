@@ -24,39 +24,31 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
 .flex-item1{
     width: 18px;
     background: url(./image.svg) no-repeat;
     background-position-x:right;
-    
-
 }
 .flex-item2{
     width: 250px;
     height: 50px;
     font-weight: bold;
-}
-    
+}  
 .flex-item3{
     width: 100px;
     height: 50px;
     color:dodgerblue;
-
 }
-
-
 .row{
 max-width: 1216px;
 margin-right: auto;
 margin-left: auto;
 background-color: #fff;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 font-size: 15px;
 color: #37474F;
 gap:24px;
-
 }
 .flex-image1,
 .flex-image2,
@@ -66,7 +58,6 @@ gap:24px;
     height: 500px;
     text-align:right;
     box-shadow: 0px 3px 8px 3px #EEEEEE;
-  
 }
 .flex-image1{
     width: 304px;
@@ -77,28 +68,54 @@ gap:24px;
  }
  .flex-image1> p{
     border: 1px solid #fff;
-    margin: 24px 16px ;
+    margin-top: 16px;
+    margin-right:12px;
+    margin-left:8px;
+
+
  }
 .flex-image2{
     width: 304px;
     height: 500px;
-background-position: center;  
-background-size: 100%;
-background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 100%;
+    background-repeat: no-repeat;
+} 
+.flex-image2> p{
+    border: 1px solid #fff;
+    margin-top: 16px;
+    margin-right:12px ;
+    margin-left:8px;
 }
 .flex-image3{
     width: 304px;
     height: 500px;
-background-position: center;  
-background-size: 100%;
-background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flex-image3> p{
+    border: 1px solid #fff;
+    margin-top: 16px;
+    margin-right:12px;
+    margin-left:8px;
+
+
 }
 .flex-image4{
     width: 304px;
     height: 500px;
-background-position: center;  
-background-size: 100%;
-background-repeat: no-repeat;
+    background-position: center;  
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flex-image4> p{
+    border: 1px solid #fff;
+    margin-top: 16px;
+    margin-right:12px;
+    margin-left:8px;
+
+
 }
 .flex-image1 img,
 .flex-image2 img,
@@ -116,49 +133,70 @@ background-repeat: no-repeat;
 }
 .flex-image1{
     width: 304px;
-    height: 500px;
+    height: 430px;
     background: url(./Proje/image1/img1.jpg)no-repeat;
     background-position-x:center;
     background-size: 100%;
 }
-
-
 .flex-image2 {
    width: 304px;
-   height: 500px;
+   height: 430px;
    background: url(./Proje/image2/img2.jpg)no-repeat;
    background-position-x:center;
    background-size: 100%;
 }
 .flex-image3{
     width: 304px;
-    height: 500px;
+    height: 430px;
     background: url(./Proje/image3/img3.jpg)no-repeat;
     background-position-x:center;
     background-size: 100%;
 }
 .flex-image4{
     width: 304px;
-    height: 500px;
+    height: 430px;
     background: url(./Proje/image4/img4.jpg)no-repeat;
     background-position-x:center;
     background-size: 70%;
 }
-.section-footer1{
+.section-footer1,
+.section-footer3, 
+.section-footer5,
+.section-footer7{
     display: flex;
-    /* justify-content: space-between; */
+    background-repeat: no-repeat;
+    gap:3px;   
+    margin-top:10px;
+    margin-bottom: 3px;
+
 }
-.flex-foot1{
+.section-footer2, 
+.section-footer4, 
+.section-footer6, 
+.section-footer8{
+    display: flex;
+    background-repeat: no-repeat;
+    gap:3px;
+    margin-top:1px;
+    margin-bottom: 24px;
+}
+.flex-foot1,
+.flex-foot6, 
+.flex-foot11, 
+.flex-foot16{
     width: 30px;
     height: 30px;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #BBDEFB;
     color: #1565C0;
     border-radius: 1px solid  #BBDEFB;
     margin-top: 24px;
     margin-right: 16px;
 }  
-.flex-foot2{
+.flex-foot2,
+.flex-foot7,
+.flex-foot12,
+.flex-foot17{
     width: 60px;
     height: 30px;
     font-size: 16px;
@@ -167,24 +205,33 @@ background-repeat: no-repeat;
     margin-top: 24px;
     margin-right: 3px;
 }  
-.flex-foot3{
-    font-weight: bold;
-}
-.section-footer2{
-display: flex;
-justify-content: space-between;
-
-}
-.flex-foot3{
+.flex-foot3,
+.flex-foot8,
+.flex-foot13, 
+.flex-foot18{
     margin-top: 18px;
     margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
 }
-.flex-foot4{
+.flex-foot4,
+.flex-foot9, 
+.flex-foot14,
+.flex-foot19{
+    margin-top: 18px;
+    margin-right: 90px;
+    }
+
+.flex-foot5,
+.flex-foot10,
+.flex-foot15,
+.flex-foot20{
+    margin-top: 18px;
+    margin-left: 18px;
     width: 18px;
     background: url(./imagestar.svg) no-repeat;
-    background-position-x:right;    
 }
-.flex-foot5{
-margin-top: 24px;
-margin-left: 36px;
-}
+
+
+
