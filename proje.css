@@ -116,30 +116,26 @@ gap:24px;
     margin-top: 10px;
 }
 .flex-image1{
-    width: 304px;
+    /* width: 304px; */
     height: 430px;
-    background: url(./Proje/image1/img1.jpg)no-repeat;
     background-position-x:center;
     background-size: 100%;
 }
 .flex-image2 {
-   width: 304px;
+   /* width: 304px; */
    height: 430px;
-   background: url(./Proje/image2/img2.jpg)no-repeat;
    background-position-x:center;
    background-size: 100%;
 }
 .flex-image3{
-    width: 304px;
+    /* width: 304px; */
     height: 430px;
-    background: url(./Proje/image3/img3.jpg)no-repeat;
     background-position-x:center;
     background-size: 100%;
 }
 .flex-image4{
-    width: 304px;
+    /* width: 304px; */
     height: 430px;
-    background: url(./Proje/image4/img4.jpg)no-repeat;
     background-position-x:center;
     background-size: 70%;
 }
@@ -218,5 +214,9 @@ gap:24px;
     background: url(./imagestar.svg) no-repeat;
 }
 
-
+.cards{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
 
