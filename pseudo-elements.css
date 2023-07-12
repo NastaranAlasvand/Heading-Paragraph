@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-size: 22px;
+}
+h1{
+
+    color:black;
+    margin-top:26px ;
+    margin-left: 26px;
+    position: relative;
+
+}
+.Cost::before{
+    content:"";
+    width: 200px;
+    height: 1px;
+    display: block;
+    background-color:red;
+    position: absolute;
+    right: 0;
+    margin: auto 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+}
