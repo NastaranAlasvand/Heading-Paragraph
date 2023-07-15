@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.cover{
+    width: 400px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 28px;
+    background-color: aqua;
+    box-shadow: 2px 2px 14px rgba(0,0,0,0.5);
+
+}
