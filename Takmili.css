@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-size: 18px;
+}
+.conainer{
+width: 400px;
+margin: 0 auto;
+margin-top: 26px;;
+font-size: 28px;
+color:red;
+background-color: aqua;
+}
+.wrapper{
+    width:200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 26px;
+    background-image: url("./Newimage/download.jpeg");
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-position: center;
+    background-size: cover;
+    font-size: inherit;
+    color:inherit;
+}
+p{
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color:transparent;
+    cursor: pointer;
+}
