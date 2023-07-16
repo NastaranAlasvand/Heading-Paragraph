@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: taahoma;
+    font-size: 28px;
+}
+.container{
+    width: 1280;
+    margin:0 auto;
+    margin-top: 36px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+    /* transition: all 250ms ease-in 250ms; */
+
+}
+.box:hover{
+    /* background-color: brown; */
+    box-shadow: 0 0 14px -2px red;
+    /* width: 400px; */
+    transition: all 250ms ease-in 250ms;
+
+
+}
