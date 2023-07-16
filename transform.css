@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+.container{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 28px;
+    /* transform: rotate(-25deg); */
+    /* transform: scale(1.5); */
+    transition: all 140ms ease-in;
+    transform-origin: -80px;
+}
+.box:hover{
+    /* transform: scale(3); */
+    /* transform: skew(10deg); */
+    /* transform: translateX(20px); */
+    /* transform: translate(20px,50px); */
+    /* transform: rotateZ(50deg); */
+    transform: rotate(20deg);
+}
