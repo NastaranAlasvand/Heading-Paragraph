@@ -19,8 +19,11 @@ body{
 }
 .container{
     max-width: 1280px;
-    /* margin-right: auto;
-    margin-left: auto; */
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 
 }
 .circle1{
@@ -28,10 +31,10 @@ body{
     height: 200px;
     border-radius: 100%;
     background-color:#1565C0;
-    margin-bottom:1800px;
-    margin-left: 300px;
+    margin-bottom:480px;
+    margin-right: 400px;
     display: flex;
-    position: absolute;
+    position: fixed;
 
 }
 .circle2{
@@ -39,28 +42,21 @@ body{
     height: 200px;
     border-radius: 100%;
     background-color:#F57C00 ;
-    margin-top:370px;
-    margin-left: 750px;
+    margin-top:470px;
+    margin-left: 400px;
     display: flex;
-    position: absolute;
+    position:fixed;
 
 }
 .box{
     width: 400px;
     height: auto;
     padding:50px 35px 35px 35px;
-    margin: 0 auto;
-    margin-top: 100px;
-    /* margin: 20px; */
-    background-color: transparent;
     background-color: rgba(255,255,255,0.13);
     border-radius: 10px;
     border: 2px solid rgba(255,255,255,0.13);
     position: relative;
-    /* display: flex; */ */
-    /* justify-content: center; */
-    /* flex-direction: column; */ */
-     /* transform: translate(-50%, -50%); */
+
 }
 
 
