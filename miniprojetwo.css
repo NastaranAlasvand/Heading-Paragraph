@@ -12,87 +12,68 @@ html{
 }
 
 body{
-    font-family: "Poppins";
-    background-color:#9E9E9E;
+    font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    overflow: hidden;
+}
+.dropdown{
+    position: relative;
 }
 
-.wrapper{
+.dropdown__btn{
     display: flex;
-    gap:4px;
-     align-items: center;  
-     flex-direction: column;
+    gap:6px;
+    align-items: center;  
     justify-content: center;
-}
-button{
-    font-family: inherit;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
     border: none;
     outline: none;
-    }
-.botton-profile{
-    width: 150px;
-    height: 50px;
-    font-size: 16px;
-    background-color:#1565C0;
+    background-color: #1976D2;
     color: #fff;
-    border-radius: 4px;
-    position: relative;
-display: inline-block;
-
-}
-.botton-profile:hover{
-    background-color:#0D47A1;
-}
-.icon{
-width: 16px; 
-height: 16px;
-color:#fff;
-transition: all 250ms;
-/* position: relative;
-display: inline-block; */
-}
-.icon:hover{
-    transform: rotate(180deg);
-
-
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 180ms ease-in 80ms;
 }
 
-
-.list-container{
-    min-width: 150px;
-    height:100px;
-    font-size: 16px;
-    background-color: #fff;
-    list-style-type: none;
-    padding: 4px;
-    border-radius: 4px;
-    display: none;
+.dropdown__btn svg{
+    width: 22px;
+    height: 22px;
+    transition: all 180ms ease-in 80ms;
+}
+.dropdown__content{
     position: absolute;
-    top: 100%;
-    left: 0;
-    border: 1px solid red;
+    top:50px;
+    width: 160px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 16px rgba(0,0,0,0,0.1);
+    text-align: center;
     visibility: hidden;
+    transition: all 180ms ease-in 80ms;
+    opacity: 0;
 }
-
-
-
-    .icon:hover + .list-container {
-        visibility: visible; /* نمایش لیست در هوور */
-        /* opacity: 1; */
-    } 
-
-
-/* .icon:hover.list{
-    display:block;
-} */
-.items{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
+.dropdown__content a {
+text-decoration:none;
+color: #1b1b1b;
+display: block;
+margin-bottom: 6px;
+}
+.dropdown__content a:last-child{
+    margin-bottom: 0;
+}
+.dropdown:hover .dropdown__content{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(12px);
+}
+.dropdown:hover .dropdown__btn{
+    background-color: #1565c0;
+}
+.dropdown:hover .dropdown__btn svg{
+    transform: rotate(180deg);
 }
