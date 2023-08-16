@@ -1,0 +1,54 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    font-family: inherit;
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    font-family: "poppined", "sans-serif";
+    color: #fff;
+    /* background-image: url(./Newimage/restaurant.jpeg) ;
+    background-repeat: no-repeat;
+    background-size:cover; */
+}
+.container{
+    max-width: 1280px;
+    max-height: 100%;
+    position: relative;
+
+}
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:26px;
+    /* position: absolute;
+    right: 50px;
+    top: 50px; */
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 300;
+}
+.start a{
+    position:absolute ;
+    right: 20px;
+    top:50px;
+}
+.wrapper{
+    width: 400px;
+    height: 700px;
+    display: flex;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.13);
+    border:2px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+button{
+    width: 200;
+    height: 50px;
+    background-color: gold;
+}
