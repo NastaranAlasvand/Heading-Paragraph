@@ -11,7 +11,7 @@ html{
 body{
     font-family: "poppined", "sans-serif";
     color: #fff;
-    background-image: url(./Newimage/restaurant.jpeg) ;
+    background-image: url(./Newimage/FOOD.png) ;
     background-repeat: no-repeat;
     background-size:cover;
     max-height: 100vh;
@@ -38,20 +38,18 @@ body{
     text-decoration: none;
     color: #fff;
     text-shadow: 0 2px 16px rgba(21, 21, 21, 0.875);
+    text-decoration:underline;
+
 
 }
 .wrapper__two{
     width: 250px;
     height: 400px;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center; 
     position: relative;
-    display: flex;
     display: block; 
-    background-color: rgba(33, 33, 33, 0.7);
-    border:2px solid rgba(33, 33, 33, 0.7);
-    backdrop-filter: blur(3px);
+    background-color: rgba(1, 1, 1, 0.9);
+    /* border:2px solid rgba(1, 1, 1, 0.9); */
+    opacity: 0.8;
     border-radius: 6px;
     box-shadow: 0 2px 16px rgba(21, 21, 21, 0.875);
     margin-left: 6px;
@@ -88,7 +86,7 @@ top:150px;
     font-size: 18px;
 
 }
-.blinking{  
+.sub{  
     position: static;
     margin-top:215px;
     margin-right: 50px;
@@ -102,19 +100,35 @@ top:150px;
     box-shadow: 0 2px 16px rgba(172, 170, 170, 0.8);
     font-size: 12px;
     cursor: pointer;
-    animation:blinkingText 0.8s infinite;
 }
-
-@keyframes blinkingText{
+.sub{
+     animation: sub 300ms  infinite ease;
+   }
+@keyframes sub{
+    0% {
+    background-color: red;
+}
+50% {
+    background-color: orange;
+}
+100% {
+    background-color: blue;
+    opacity:0;
+}
+}
+/* .sub{
+     animation:sub 0.8s infinite;
+   }
+ @keyframes sub{
     0%{     color: #fff    }
     49%{    color: transparent; }
     50%{    color: transparent; }
     99%{    color:transparent;  }
     100%{   color: #000;    }
-}
+ }  */
 .item5{
     position: static;
-top:245px;
+    top:245px;
     margin-top: 10px;
     font-size: 14px;
 }
