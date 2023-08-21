@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin:0;
+}
+
+body{
+    font-family:"Poppins",sans-serif ;
+    
+}
+.container{
+    max-width:500px;
+    display: block;
+    background: linear-gradient(#BDBDBD,#757575);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    text-align: center;
+
+}  
+.container a{
+    color: black;
+    text-shadow: 0 2px 12px rgba(#424242);
+    /* text-align: center; */
+    margin-left: 10px;
+}
+.container a:first-child{
+    margin-left: 0;
+}
+
+
