@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../Heading-Paragraph/fonts/realprojeh/ttf/Montserrat-Regular.ttf)
+     format("true.type"),
+     url(../Heading-Paragraph/fonts/realprojeh/ttf/Poppins-Regular.ttf)
+     format("true.type");
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+    font:inherit;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#FC724D;
+}
+body{
+    font-family: "Montserrat" , sans-serif;
+    background: url("./RealProjeh/1/1-background.png") no-repeat fixed 100%;
+
+}
+
+.container{
+    max-width:90rem;
+    margin-left: 12.1875rem;
+
+}
+
+.header{
+    width:80rem;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    gap:8rem;
+    align-items: center;
+
+}
+.name{
+width: 9.0625rem;     
+font-size: 1.5rem;
+color: #252B42;
+font-weight: 700;
+margin-left: -6rem;
+
+
+}
+.menu{
+    text-align: center;
+   
+}
+.menu li {
+    display: inline-block;
+    margin:0 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #737373;
+
+}
+ul{
+     list-style-type: none; 
+     font-size: 14px; 
+    
+}
+.join{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:15px;
+
+
+}
+.join a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color:var(--primary-color);
+    font-size: 14px;
+    font-weight: 700px;
+    margin-right: -2rem;
+}
+.join button{
+    width:137px ;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    padding:15px, 25px, 15px, 25px;
+    margin-left: 4rem;
+    border: none;
+    outline: none;
+    
+}
+.join svg{
+    width:14px;
+    height: 14px;
+    margin-left: 0.5rem;
+    /* text-align: center; */
+}
+.main{
+    display: flex;
+    margin-left: 12.1875rem;
+}
+.welcome{
+    width: 40rem;
+}
+.welcome h4{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+.welcome h2{
+    font-size: 3.625rem;
+    font-weight: 700;
+    color: #252B42;
+    margin-bottom: 1.5rem;
+
+}
+.welcome p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #737373;
+    margin-bottom: 1.5rem;
+
+}
+.join-learn{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 1.5rem;
+    /* background-color: var(--primary-color);
+    color: #FFFFFF; */
+}
+.btn-one{
+    Width: 133px;
+    Height:52px;
+    border-radius:5px;
+    Padding:15px, 40px, 15px, 40px;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+} 
+.btn-two{
+    width: 162px;
+    height:52px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    border: 1px;
+    background-color:#FFFFFF;
+    color:var(--primary-color);
+}
