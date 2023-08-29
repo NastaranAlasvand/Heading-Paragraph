@@ -23,7 +23,7 @@ html{
     padding: 1rem;
     display: flex;
     gap:2rem;
-    justify-content:center;
+    justify-content:left;
     flex-wrap: wrap;
     text-align: center;
     background-color:#BDBDBD;
@@ -63,6 +63,9 @@ h3{
         color:#424242;
         border-radius: 6px;
     }
+    /* .flex-item13{
+        justify-content: flex-start;
+    } */
 
 
 }
@@ -93,7 +96,7 @@ h3{
     }
 
 }
-/* @media screen and (max-width:375px) {
+@media screen and (max-width:375px) {
     .container{
         max-width: 150px;
         margin-right: auto;
@@ -120,7 +123,7 @@ h3{
     }
 
     
-} */
+}
 
 
 
