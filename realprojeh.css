@@ -1,10 +1,8 @@
-@font-face {
-    font-family: "Montserrat";
+/* @font-face {
+    font-family: "Montserrat-Regular";
     src: url(../Heading-Paragraph/fonts/realprojeh/ttf/Montserrat-Regular.ttf)
-     format("true.type"),
-     url(../Heading-Paragraph/fonts/realprojeh/ttf/Poppins-Regular.ttf)
-     format("true.type");
-}
+     format("truetype"),
+} */
 html{
     box-sizing: border-box;
 }
@@ -20,8 +18,11 @@ html{
     --primary-color:#FC724D;
 }
 body{
-    font-family: "Montserrat" , sans-serif;
-    background: url("./RealProjeh/1/1-background.png") no-repeat fixed 100%;
+    width:100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: url("./RealProjeh/1/1-background.png") no-repeat fixed 100%; 
+    background-size:contain;
 
 }
 
@@ -32,12 +33,11 @@ body{
 }
 
 .header{
-    width:80rem;
-    margin-top: 1rem;
+    width:100%;
+    margin-top: 20px;
     margin-bottom: 8rem;
     display: flex;
-    justify-content: center;
-    gap:8rem;
+    gap:12rem;
     align-items: center;
 
 }
@@ -46,12 +46,14 @@ width: 9.0625rem;
 font-size: 1.5rem;
 color: #252B42;
 font-weight: 700;
-margin-left: -6rem;
-
 
 }
 .menu{
     text-align: center;
+    cursor: pointer;
+    margin-left: -7rem;
+    margin-right: 7rem;
+
    
 }
 .menu li {
@@ -71,18 +73,17 @@ ul{
     width: 15rem;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    gap:15px;
+
 
 
 }
 .join a{
-    margin-left: 2rem;
+    margin-left: 28px;
     text-decoration: none;
     color:var(--primary-color);
     font-size: 14px;
-    font-weight: 700px;
     margin-right: -2rem;
+    font-weight: 700;
 }
 .join button{
     width:137px ;
@@ -93,17 +94,16 @@ ul{
     background-color: var(--primary-color);
     color: #FFFFFF;
     padding:15px, 25px, 15px, 25px;
-    margin-left: 4rem;
+    margin-left: 4.5rem;
     border: none;
     outline: none;
+    cursor: pointer;
     
 }
-.join svg{
-    width:14px;
-    height: 14px;
-    margin-left: 0.5rem;
-    /* text-align: center; */
+button img{
+    margin-left:6px ;
 }
+
 .main{
     display: flex;
     margin-left: 12.1875rem;
@@ -115,7 +115,7 @@ ul{
     font-size: 1rem;
     font-weight: 700;
     color: var(--primary-color);
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 .welcome h2{
     font-size: 3.625rem;
@@ -126,33 +126,34 @@ ul{
 }
 .welcome p{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     color: #737373;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 
 }
 .join-learn{
     display: flex;
     align-items: center;
     gap:10px;
-    margin-top: 1.5rem;
-    /* background-color: var(--primary-color);
-    color: #FFFFFF; */
+    margin-top: 2rem;
+    cursor: pointer;
+
 }
 .btn-one{
-    Width: 133px;
+    Width: 120px;
     Height:52px;
     border-radius:5px;
+    border: 1px solid var(--primary-color);
     Padding:15px, 40px, 15px, 40px;
     background-color: var(--primary-color);
     color: #FFFFFF;
 } 
 .btn-two{
-    width: 162px;
+    width: 136px;
     height:52px;
-    padding: 15px 40px 15px 40px;
+    padding: 15px 20px 15px 20px;
     border-radius: 5px;
-    border: 1px;
-    background-color:#FFFFFF;
+    border: 1px solid var(--primary-color);
+    backdrop-filter:blur(10px);
     color:var(--primary-color);
 }
